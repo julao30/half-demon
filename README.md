@@ -11,9 +11,12 @@ pip install -r requirments.txt
 ```
 
 ## Użycie
-python src/main.py
+```python
+src/main.py
+```
 
 ## Struktura projektu
+```
 my-python-project/
 │
 ├── src/
@@ -21,6 +24,7 @@ my-python-project/
 ├── tests/
 ├── requirements.txt
 └── README.md
+```
 
 ## Licencja
 Ten projekt jest licencjowany pod [licencją MIT] (https://pl.wikipedia.org/wiki/Licencja_MIT)
