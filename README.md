@@ -27,7 +27,7 @@ my-python-project/
 ```
 
 ## Licencja
-Ten projekt jest licencjowany pod [licencją MIT] (https://pl.wikipedia.org/wiki/Licencja_MIT)
+Ten projekt jest licencjowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT)
 
 ## Autor
-- Julia - [julao30] (https://github.com/julao30)
+- Julia - [julao30](https://github.com/julao30)
