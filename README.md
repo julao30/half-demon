@@ -8,6 +8,7 @@ Ten projekt demonstruje podstawy pracy z Git oraz strukturyzacji projektu w jęz
 git clone https://github.com/julao30/half-demon.git
 cd projekt-python
 pip install -r requirments.txt
+```
 
 ## Użycie
 python src/main.py
