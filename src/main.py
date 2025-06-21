@@ -1,7 +1,5 @@
 def main():
-    print("Dzień dobry, Git!")
-    print("Fajnie, że wpadłeś!")
-    print("Jak się masz?")
+    return "Dzień dobry, Git!\nFajnie, że wpadłeś!"
 
 if __name__ == "__main__":
-    main()
+    print(main())
