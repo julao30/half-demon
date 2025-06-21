@@ -26,6 +26,11 @@ my-python-project/
 └── README.md
 ```
 
+## Rozwiązywanie konfliktów
+- Gałęzie feature/header-design-a i feature/header-design-b pokazywały ten sam nagłówek w main.py
+- Podczas używania opcji merge z main wystąpił konflikt.
+- Został rozwiązany ręcznie przez utworzenie wspólnego nagłówka.
+
 ## Licencja
 Ten projekt jest licencjowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT)
 
