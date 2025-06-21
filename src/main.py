@@ -10,7 +10,7 @@ COLOR_CYAN = '\033[96m'
 COLOR_WHITE = '\033[97m'
 
 def main():
-    print(COLOR_RED + "Hejka, Git! Wersja A" + COLOR_RESET)
+    print(COLOR_RED + "Hejka, Git! Wersja A + " + COLOR_BLUE + "Wersja B połączone" + COLOR_RESET)
     print("Fajnie, że wpadłeś!")
 
 if __name__ == "__main__":
