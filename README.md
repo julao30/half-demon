@@ -45,6 +45,7 @@ Przykład użycia:
 ```python
 is_valid_password("Abcdef1!")
 # → True
+```
 
 ## Licencja
 Ten projekt jest licencjowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT)
