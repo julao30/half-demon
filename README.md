@@ -27,9 +27,24 @@ my-python-project/
 ```
 
 ## Rozwiązywanie konfliktów
-- Gałęzie feature/header-design-a i feature/header-design-b pokazywały ten sam nagłówek w main.py
-- Podczas używania opcji merge z main wystąpił konflikt.
+- Gałęzie 'feature/header-design-a' i 'feature/header-design-b' pokazywały ten sam nagłówek w main.py
+- Podczas używania opcji 'merge' z main wystąpił konflikt.
 - Został rozwiązany ręcznie przez utworzenie wspólnego nagłówka.
+
+## Walidacja hasła
+
+Funkcja 'is_valid_password(password)' sprawdza, czy hasło spełnia wymagania bezpieczeństwa:
+- Minimum 8 znaków
+- Wielka i mała litera
+- Cyfra
+- Znak specjalny
+- Brak spacji
+
+Przykład użycia:
+
+```python
+is_valid_password("Abcdef1!")
+# → True
 
 ## Licencja
 Ten projekt jest licencjowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT)
