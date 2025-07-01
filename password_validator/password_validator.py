@@ -1,5 +1,7 @@
 import re
 
+SPECIAL_CHARS = r"[!@#$%^&*()_+\-=\[\]{};':\"\\|,.<>\/?]"
+
 def is_valid_password(password):
     if len(password) < 8:
         return False
@@ -11,6 +13,9 @@ def is_valid_password(password):
         return False
     if not re.search(r"\d", password):
         return False
-    if not re.search(r"[!@#$%^&*()_+\-=\[\]{};':\"\\|,.<>\/?]", password):
+    if not re.search(SPECIAL_CHARS, password):
         return False
     return True
+
+def has_secure_suffix(password):
+    return password.endswith("!") or password.endswith("@")
