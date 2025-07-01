@@ -14,3 +14,6 @@ def is_valid_password(password):
     if not re.search(r"[!@#$%^&*()_+\-=\[\]{};':\"\\|,.<>\/?]", password):
         return False
     return True
+
+def has_secure_suffix(password):
+    return password.endswith("!") or password.endswith("@")
