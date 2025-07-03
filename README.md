@@ -17,13 +17,23 @@ src/main.py
 
 ## Struktura projektu
 ```
-my-python-project/
-│
+projekt-python/
+├── .github/workflows/
+│   ├── .env
+│   ├── cd.yml
+│   └── ci.yml
+├── .idea
+├── __pycache__
+├── .vc/
+├── password_validaor/
 ├── src/
 │   └── main.py
 ├── tests/
-├── requirements.txt
-└── README.md
+├── .gitignore
+├── CHANGELOG.md
+├── menu
+├── README.md
+└── requirements.txt
 ```
 
 ## Rozwiązywanie konfliktów
