@@ -12,7 +12,7 @@ pip install -r requirments.txt
 
 ## Użycie
 ```python
-src/main.py
+password_validator/app.py
 ```
 
 ## Struktura projektu
