@@ -19,13 +19,13 @@ src/main.py
 ```
 projekt-python/
 ├── .github/workflows/
-│   ├── .env
-│   ├── cd.yml
-│   └── ci.yml
 ├── .idea
-├── __pycache__
 ├── .vc/
+├── __pycache__
 ├── password_validaor/
+│   ├── app.py
+│   ├── password_validator.py
+│   ├── test_password_validator.py
 ├── src/
 │   └── main.py
 ├── tests/
