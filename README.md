@@ -7,7 +7,7 @@ Ten projekt przedstawia walidację hasła.
 ```bash
 git clone https://github.com/julao30/half-demon.git
 cd projekt-python
-pip install -r requirments.txt
+pip install -r requirements.txt
 python app.py
 ```
 
