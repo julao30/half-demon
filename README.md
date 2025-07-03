@@ -1,7 +1,7 @@
 # Projekt Python
 
 ## Opis
-Ten projekt demonstruje podstawy pracy z Git oraz strukturyzacji projektu w języku Python.
+Ten projekt przedstawia walidację hasła.
 
 ## Instalacja
 ```bash
