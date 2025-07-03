@@ -8,6 +8,8 @@ Ten projekt przedstawia walidację hasła.
 git clone https://github.com/julao30/half-demon.git
 cd projekt-python
 pip install -r requirements.txt
+pip install flask
+cd password_validator
 python app.py
 ```
 
